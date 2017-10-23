@@ -1,0 +1,409 @@
+#VRML V2.0 utf8 CosmoWorlds V1.0
+
+Group {
+  children	[
+    Group {
+      children	[
+	WorldInfo {
+	  title	"threonine.wrl"
+	  info	"Insight II version 95.0.6"
+	}
+	Background {
+	  skyColor	0 0 0
+	}
+	NavigationInfo {
+	  type	[ "EXAMINE",
+		    "ANY" ]
+	}
+	Collision {
+	  children	Group {
+	    children	[
+	      Shape {
+		appearance	Appearance {
+		  material	DEF mat_0_0_255 Material {
+		    diffuseColor	0 0 1
+		  }
+
+		}
+
+		geometry	IndexedLineSet {
+		  coord	Coordinate {
+		    point	[ -1.70533 -0.372443 0.133555,
+			      -1.05862 -0.073751 0.293079,
+			      -1.70533 -0.372443 0.133555,
+			      -2.06954 -0.118904 -0.174123,
+			      -1.70533 -0.372443 0.133555,
+			      -1.84813 -0.860152 0.316169 ]
+		  }
+
+		  coordIndex	[ 0, 1, -1, 2, 3, -1, 4, 5,
+			    -1 ]
+		}
+
+	      }
+	      Shape {
+		appearance	Appearance {
+		  material	DEF mat_0_255_0 Material {
+		    diffuseColor	0 1 0
+		  }
+
+		}
+
+		geometry	IndexedLineSet {
+		  coord	Coordinate {
+		    point	[ -0.411908 0.224941 0.452603,
+			      -1.05862 -0.073751 0.293079,
+			      -0.411908 0.224941 0.452603,
+			      -0.382517 0.294804 0.999974,
+			      -0.411908 0.224941 0.452603,
+			      -0.273308 1.58726 -0.183783,
+			      -0.411908 0.224941 0.452603,
+			      0.755175 -0.71744 0.002469,
+			      -0.233966 1.64422 -0.194118,
+			      -0.675143 1.88729 -0.533731,
+			      -0.31265 1.53029 -0.173449,
+			      -0.753828 1.77335 -0.513062,
+			      -0.273308 1.58726 -0.183783,
+			      0.329894 1.9575 -0.082326,
+			      0.755175 -0.71744 0.002469,
+			      0.70235 -0.812881 -0.542309,
+			      0.755175 -0.71744 0.002469,
+			      0.720188 -1.33871 0.346169,
+			      0.755175 -0.71744 0.002469,
+			      2.18806 -0.207938 0.269247,
+			      2.57165 -0.571625 0.108036,
+			      2.18806 -0.207938 0.269247,
+			      2.30059 0.259505 -0.004083,
+			      2.18806 -0.207938 0.269247,
+			      2.27321 -0.106829 0.806475 ]
+		  }
+
+		  coordIndex	[ 0, 1, -1, 2, 3, -1, 4, 5,
+			    -1, 6, 7, -1, 8, 9, -1, 10,
+			    11, -1, 12, 13, -1, 14, 15, -1,
+			    16, 17, -1, 18, 19, 20, -1, 21,
+			    22, -1, 23, 24, -1 ]
+		}
+
+	      }
+	      Shape {
+		appearance	Appearance {
+		  material	DEF mat_255_255_255 Material {
+		    diffuseColor	1 1 1
+		  }
+
+		}
+
+		geometry	IndexedLineSet {
+		  coord	Coordinate {
+		    point	[ -2.43376 0.134635 -0.481801,
+			      -2.06954 -0.118904 -0.174123,
+			      -1.99093 -1.34786 0.498782,
+			      -1.84813 -0.860152 0.316169,
+			      -0.353125 0.364668 1.54735,
+			      -0.382517 0.294804 0.999974,
+			      1.5753 1.78293 0.612137,
+			      1.2542 2.05533 0.315634,
+			      0.649525 -0.908322 -1.08709,
+			      0.70235 -0.812881 -0.542309,
+			      1.38045 -2.51072 0.317629,
+			      1.03282 -2.23535 0.503749,
+			      2.95524 -0.935313 -0.053175,
+			      2.57165 -0.571625 0.108036,
+			      2.41311 0.726948 -0.277413,
+			      2.30059 0.259505 -0.004083,
+			      2.35836 -0.005719 1.3437,
+			      2.27321 -0.106829 0.806475 ]
+		  }
+
+		  coordIndex	[ 0, 1, -1, 2, 3, -1, 4, 5,
+			    -1, 6, 7, -1, 8, 9, -1, 10,
+			    11, -1, 12, 13, -1, 14, 15, -1,
+			    16, 17, -1 ]
+		}
+
+	      }
+	      Shape {
+		appearance	Appearance {
+		  material	DEF mat_255_0_0 Material {
+		    diffuseColor	1 0 0
+		  }
+
+		}
+
+		geometry	IndexedLineSet {
+		  coord	DEF _v2%3 Coordinate {
+		    point	[ 0.933096 2.32774 0.019131,
+			      0.329894 1.9575 -0.082326,
+			      0.933096 2.32774 0.019131,
+			      1.2542 2.05533 0.315634,
+			      -1.11632 2.13035 -0.873344,
+			      -0.675143 1.88729 -0.533731,
+			      -1.19501 2.01642 -0.852675,
+			      -0.753828 1.77335 -0.513062,
+			      0.685202 -1.95998 0.689868,
+			      0.720188 -1.33871 0.346169,
+			      0.685202 -1.95998 0.689868,
+			      1.03282 -2.23535 0.503749 ]
+		  }
+
+		  coordIndex	[ 0, 1, -1, 2, 3, -1, 4, 5,
+			    -1, 6, 7, -1, 8, 9, -1, 10,
+			    11, -1 ]
+		}
+
+	      }
+	      Transform {
+		children	Shape {
+		  appearance	Appearance {
+		    material	USE mat_0_0_255
+
+		  }
+
+		  geometry	DEF sphere Sphere {
+		  }
+
+		}
+
+		translation	-1.70533 -0.372443 0.133555
+		scale	1.4 1.4 1.4
+	      }
+	      Transform {
+		children	Shape {
+		  appearance	Appearance {
+		    material	USE mat_0_255_0
+
+		  }
+
+		  geometry	USE sphere
+
+		}
+
+		translation	-0.411908 0.224941 0.452603
+		scale	1.55 1.55 1.55
+	      }
+	      Transform {
+		children	Shape {
+		  appearance	Appearance {
+		    material	USE mat_255_255_255
+
+		  }
+
+		  geometry	USE sphere
+
+		}
+
+		translation	-2.43376 0.134635 -0.481801
+		scale	1.1 1.1 1.1
+	      }
+	      Transform {
+		children	Shape {
+		  appearance	Appearance {
+		    material	USE mat_255_255_255
+
+		  }
+
+		  geometry	USE sphere
+
+		}
+
+		translation	-1.99093 -1.34786 0.498782
+		scale	1.1 1.1 1.1
+	      }
+	      Transform {
+		children	Shape {
+		  appearance	Appearance {
+		    material	USE mat_255_255_255
+
+		  }
+
+		  geometry	USE sphere
+
+		}
+
+		translation	-0.353125 0.364668 1.54735
+		scale	1.1 1.1 1.1
+	      }
+	      Transform {
+		children	Shape {
+		  appearance	Appearance {
+		    material	USE mat_0_255_0
+
+		  }
+
+		  geometry	USE sphere
+
+		}
+
+		translation	-0.273308 1.58726 -0.183783
+		scale	1.55 1.55 1.55
+	      }
+	      Transform {
+		children	Shape {
+		  appearance	Appearance {
+		    material	USE mat_255_0_0
+
+		  }
+
+		  geometry	USE sphere
+
+		}
+
+		translation	0.933096 2.32774 0.019131
+		scale	1.35 1.35 1.35
+	      }
+	      Transform {
+		children	Shape {
+		  appearance	Appearance {
+		    material	USE mat_255_255_255
+
+		  }
+
+		  geometry	USE sphere
+
+		}
+
+		translation	1.5753 1.78293 0.612137
+		scale	1.1 1.1 1.1
+	      }
+	      Transform {
+		children	Shape {
+		  appearance	Appearance {
+		    material	USE mat_255_0_0
+
+		  }
+
+		  geometry	USE sphere
+
+		}
+
+		translation	-1.15566 2.07339 -0.86301
+		scale	1.35 1.35 1.35
+	      }
+	      Transform {
+		children	Shape {
+		  appearance	Appearance {
+		    material	USE mat_0_255_0
+
+		  }
+
+		  geometry	USE sphere
+
+		}
+
+		translation	0.755175 -0.71744 0.002469
+		scale	1.55 1.55 1.55
+	      }
+	      Transform {
+		children	Shape {
+		  appearance	Appearance {
+		    material	USE mat_255_255_255
+
+		  }
+
+		  geometry	USE sphere
+
+		}
+
+		translation	0.649525 -0.908322 -1.08709
+		scale	1.1 1.1 1.1
+	      }
+	      Transform {
+		children	Shape {
+		  appearance	Appearance {
+		    material	USE mat_255_0_0
+
+		  }
+
+		  geometry	USE sphere
+
+		}
+
+		translation	0.685202 -1.95998 0.689868
+		scale	1.35 1.35 1.35
+	      }
+	      Transform {
+		children	Shape {
+		  appearance	Appearance {
+		    material	USE mat_255_255_255
+
+		  }
+
+		  geometry	USE sphere
+
+		}
+
+		translation	1.38045 -2.51072 0.317629
+		scale	1.1 1.1 1.1
+	      }
+	      Transform {
+		children	Shape {
+		  appearance	Appearance {
+		    material	USE mat_0_255_0
+
+		  }
+
+		  geometry	USE sphere
+
+		}
+
+		translation	2.18806 -0.207938 0.269247
+		scale	1.55 1.55 1.55
+	      }
+	      Transform {
+		children	Shape {
+		  appearance	Appearance {
+		    material	USE mat_255_255_255
+
+		  }
+
+		  geometry	USE sphere
+
+		}
+
+		translation	2.95524 -0.935313 -0.053175
+		scale	1.1 1.1 1.1
+	      }
+	      Transform {
+		children	Shape {
+		  appearance	Appearance {
+		    material	USE mat_255_255_255
+
+		  }
+
+		  geometry	USE sphere
+
+		}
+
+		translation	2.41311 0.726948 -0.277413
+		scale	1.1 1.1 1.1
+	      }
+	      Transform {
+		children	Shape {
+		  appearance	Appearance {
+		    material	USE mat_255_255_255
+
+		  }
+
+		  geometry	USE sphere
+
+		}
+
+		translation	2.35836 -0.005719 1.3437
+		scale	1.1 1.1 1.1
+	      }
+	    ]
+	  }
+
+	  collide	FALSE
+	}
+      ]
+    }
+    DEF VP1 Viewpoint {
+      position	0.260741 0.0335094 17.4027
+      orientation	0 0 1  0
+      fieldOfView	0.785398
+      description	"viewpoint21"
+    }
+  ]
+}

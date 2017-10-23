@@ -1,0 +1,206 @@
+#VRML V1.0 ascii
+
+Separator {
+DEF Title Info {
+   string "alanine.wrl"
+}
+DEF SceneInfo Info {
+   string "Insight II version 95.0.6"
+}
+DEF Viewer Info {
+   string "examiner"
+}
+NormalBinding { value PER_VERTEX_INDEXED }
+MaterialBinding { value OVERALL }
+ShapeHints {
+   vertexOrdering UNKNOWN_ORDERING
+   shapeType UNKNOWN_SHAPE_TYPE
+   faceType CONVEX
+}
+DEF BackgroundColor Info {
+   string "0.00 0.00 0.00" 
+}
+Material {
+   ambientColor 0.2 0.2 0.2
+   diffuseColor 1 1 1
+   specularColor 0.8 0.8 0.8 
+   shininess 0.2 
+}
+DEF mat_0_0_255_255 Material {
+   diffuseColor 0.000 0.000 1.000 
+}
+Coordinate3 { point [
+   -2.334206 -0.091356 -0.116781,
+   -1.675655 0.104996 0.129617,
+   -2.334206 -0.091356 -0.116781,
+   -2.697651 0.272020 -0.282995,
+   -2.334206 -0.091356 -0.116781,
+   -2.487255 -0.608609 -0.143822,
+] }
+IndexedLineSet { coordIndex [
+    0, 1,-1, 2, 3,-1, 4, 5,-1,
+] }
+DEF mat_0_255_0_255 Material {
+   diffuseColor 0.000 1.000 0.000 
+}
+Coordinate3 { point [
+   -1.017104 0.301349 0.376014,
+   -1.675655 0.104996 0.129617,
+   -1.017104 0.301349 0.376014,
+   -0.852474 1.802100 0.344583,
+   -1.017104 0.301349 0.376014,
+   0.035360 -0.432519 -0.473112,
+   -1.017104 0.301349 0.376014,
+   -0.971394 0.142177 0.903666,
+   -0.852474 1.802100 0.344583,
+   -1.303575 2.176949 0.149082,
+   -0.852474 1.802100 0.344583,
+   -0.224089 2.053057 0.575618,
+   0.035360 -0.432519 -0.473112,
+   0.550214 -0.315569 -0.308815,
+   0.035360 -0.432519 -0.473112,
+   -0.020469 -0.982100 -0.440473,
+   0.035360 -0.432519 -0.473112,
+   0.001457 -0.297834 -1.009083,
+] }
+IndexedLineSet { coordIndex [
+    0, 1,-1, 2, 3,-1, 4, 5,-1, 6,
+    7,-1, 8, 9,-1, 10, 11,-1, 12, 13,
+   -1, 14, 15,-1, 16, 17,-1,
+] }
+DEF mat_255_0_0_255 Material {
+   diffuseColor 1.000 0.000 0.000 
+}
+Coordinate3 { point [
+   -1.754675 2.551799 -0.046418,
+   -1.303575 2.176949 0.149082,
+   0.404295 2.304015 0.806653,
+   -0.224089 2.053057 0.575618,
+   0.404295 2.304015 0.806653,
+   0.704331 1.910700 0.949850,
+] }
+IndexedLineSet { coordIndex [
+    0, 1,-1, 2, 3,-1, 4, 5,-1,
+] }
+DEF mat_255_255_255_255 Material {
+   diffuseColor 1.000 1.000 1.000 
+}
+Coordinate3 { point [
+   -3.061097 0.635397 -0.449210,
+   -2.697651 0.272020 -0.282995,
+   -2.640304 -1.125861 -0.170862,
+   -2.487255 -0.608609 -0.143822,
+   -0.925683 -0.016994 1.431316,
+   -0.971394 0.142177 0.903666,
+   1.004368 1.517384 1.093046,
+   0.704331 1.910700 0.949850,
+   1.065068 -0.198618 -0.144518,
+   0.550214 -0.315569 -0.308815,
+   -0.076299 -1.531681 -0.407833,
+   -0.020469 -0.982100 -0.440473,
+   -0.032447 -0.163150 -1.545054,
+   0.001457 -0.297834 -1.009083,
+] }
+IndexedLineSet { coordIndex [
+    0, 1,-1, 2, 3,-1, 4, 5,-1, 6,
+    7,-1, 8, 9,-1, 10, 11,-1, 12, 13,-1,
+] }
+USE mat_0_0_255_255
+Separator {
+   Transform {
+       translation -2.334206 -0.091356 -0.116781
+       scaleFactor 1.399999 1.399999 1.399999
+   }
+   DEF sphere Sphere {}
+}
+USE mat_0_255_0_255
+Separator {
+   Transform {
+       translation -1.017104 0.301349 0.376014
+       scaleFactor 1.549999 1.549999 1.549999
+   }
+   USE sphere
+}
+Separator {
+   Transform {
+       translation -0.852474 1.802100 0.344583
+       scaleFactor 1.549999 1.549999 1.549999
+   }
+   USE sphere
+}
+USE mat_255_0_0_255
+Separator {
+   Transform {
+       translation -1.754675 2.551799 -0.046418
+       scaleFactor 1.349999 1.349999 1.349999
+   }
+   USE sphere
+}
+USE mat_0_255_0_255
+Separator {
+   Transform {
+       translation 0.035360 -0.432519 -0.473112
+       scaleFactor 1.549999 1.549999 1.549999
+   }
+   USE sphere
+}
+USE mat_255_255_255_255
+Separator {
+   Transform {
+       translation -3.061097 0.635397 -0.449210
+       scaleFactor 1.099999 1.099999 1.099999
+   }
+   USE sphere
+}
+Separator {
+   Transform {
+       translation -2.640304 -1.125861 -0.170862
+       scaleFactor 1.099999 1.099999 1.099999
+   }
+   USE sphere
+}
+Separator {
+   Transform {
+       translation -0.925683 -0.016994 1.431316
+       scaleFactor 1.099999 1.099999 1.099999
+   }
+   USE sphere
+}
+USE mat_255_0_0_255
+Separator {
+   Transform {
+       translation 0.404295 2.304015 0.806653
+       scaleFactor 1.349999 1.349999 1.349999
+   }
+   USE sphere
+}
+USE mat_255_255_255_255
+Separator {
+   Transform {
+       translation 1.004368 1.517384 1.093046
+       scaleFactor 1.099999 1.099999 1.099999
+   }
+   USE sphere
+}
+Separator {
+   Transform {
+       translation 1.065068 -0.198618 -0.144518
+       scaleFactor 1.099999 1.099999 1.099999
+   }
+   USE sphere
+}
+Separator {
+   Transform {
+       translation -0.076299 -1.531681 -0.407833
+       scaleFactor 1.099999 1.099999 1.099999
+   }
+   USE sphere
+}
+Separator {
+   Transform {
+       translation -0.032447 -0.163150 -1.545054
+       scaleFactor 1.099999 1.099999 1.099999
+   }
+   USE sphere
+}
+}
